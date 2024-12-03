@@ -32,3 +32,6 @@ allow platform_app bootanim_system_prop:property_service set;
 
 # Allow Columbus to set ApSensor property
 allow platform_app system_prop:property_service set;
+
+# Bootanim
+allow platform_app bootanim_system_prop:property_service set;
