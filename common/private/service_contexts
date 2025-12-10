@@ -20,3 +20,6 @@ boost_framework                              u:object_r:boost_framework_service:
 
 # Refresh Rate Manager
 refresh_rate_ext                          u:object_r:refresh_rate_manager_service:s0
+
+# Theme Engine
+theme_engine                                  u:object_r:theme_engine_service:s0

@@ -44,3 +44,6 @@ allow system_server bootanim_data_file:file create_file_perms;
 
 # Refresh Rate Manager
 add_service(system_server, refresh_rate_manager_service);
+
+# Theme Engine
+add_service(system_server, theme_engine_service);
