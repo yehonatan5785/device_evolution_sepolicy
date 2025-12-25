@@ -58,3 +58,7 @@ allow platform_app bootanim_system_prop:property_service set;
 
 # Custom ROM Hide
 allow platform_app custom_rom_hide_data_file:file { create open read write getattr setattr unlink };
+
+# TrickyStore - AxionParts
+allow platform_app trickystore_data_file:dir { create open read write add_name remove_name search getattr };
+allow platform_app trickystore_data_file:file { create open read write getattr setattr unlink };

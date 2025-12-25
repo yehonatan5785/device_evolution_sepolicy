@@ -47,3 +47,7 @@ add_service(system_server, refresh_rate_manager_service);
 
 # Theme Engine
 add_service(system_server, theme_engine_service);
+
+# TrickyStore
+allow system_server trickystore_data_file:dir { create open read write add_name remove_name search getattr };
+allow system_server trickystore_data_file:file { create open read write getattr setattr unlink };

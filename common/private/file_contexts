@@ -24,3 +24,6 @@
 
 # Custom ROM Hide
 /data/adb/\.custom_rom_hide_allowlist             u:object_r:custom_rom_hide_data_file:s0
+
+# TrickyStore
+/data/adb/tricky_store(/.*)?                      u:object_r:trickystore_data_file:s0
