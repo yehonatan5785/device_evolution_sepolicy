@@ -4,3 +4,4 @@ type sysfs_perdev_minors, fs_type, sysfs_type;
 
 # Pocket judge
 type pocket_judge_sysfs, fs_type, sysfs_type;
+type custom_rom_hide_data_file, file_type, data_file_type, core_data_file_type;

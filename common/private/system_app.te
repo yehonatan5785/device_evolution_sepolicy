@@ -25,3 +25,6 @@ allow system_app system_prop:property_service set;
 allow system_app bootanim_data_file:dir create_dir_perms;
 allow system_app bootanim_data_file:file create_file_perms;
 set_prop(system_app, bootanim_system_prop)
+
+# Custom ROM Hide
+allow system_app custom_rom_hide_data_file:file { create open read write getattr setattr unlink };
