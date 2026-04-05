@@ -10,12 +10,10 @@ endif
 endif
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/common/public \
-    device/lineage/sepolicy/system_ext/public
+    device/lineage/sepolicy/common/public
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/common/private \
-    device/lineage/sepolicy/sepolicy/system_ext/private
+    device/lineage/sepolicy/common/private
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
